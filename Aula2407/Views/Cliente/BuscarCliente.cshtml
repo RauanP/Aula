@@ -1,0 +1,206 @@
+﻿@* @model IEnumerable<Aula2407.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+    Layout = "~/Views/Shared/_NossoLayout.cshtml";
+    int qtdePaginas = ViewBag.QtdePaginas;
+    int paginaAtual = ViewBag.PaginaAtual;
+}
+
+@if (TempData["msg"] as string == "2")
+{
+    <div class="alert alert-success">
+        <span> Dados Alterados com sucesso! </span>
+    </div>
+}
+else if (TempData["msg"] as string == "1")
+{
+    <div class="alert alert-success">
+        <span> Dados cadastrados com sucesso! </span>
+    </div>
+}
+
+<h1 class="display-4 align-content-center">Clientes</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="CadastroCliente">Novo Cliente</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.Senha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rua)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Complemento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Senha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complemento)
+            </td>
+            <td>
+                    <a class="btn btn-primary"  asp-action="AlteraCliente" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-primary" asp-action="DetalhesClientes" asp-route-id="@item.Id">Detalhes</a> |
+                    <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
+
+@model IEnumerable<Aula2407.Models.Cliente>
+
+@{
+    ViewData["Title"] = "..::Buscar Clientes::..";
+    Layout = "~/Views/Shared/_NossoLayout.cshtml";
+    int qtdePaginas = ViewBag.QtdePaginas;
+    int paginaAtual = ViewBag.PaginaAtual;
+    int qtdeTClientes = ViewBag.QtdeTClientes;
+}
+
+@if (TempData["msg"] as string == "2")
+{
+    <div class="alert alert-success">
+        <span> Dados alterados com sucesso!</span>
+    </div>
+}
+else if (TempData["msg"] as string == "1")
+{
+    <div class="alert alert-success">
+        <span> Dados cadastrados com sucesso!</span>
+    </div>
+}
+
+<h1 class="display-4 align-content-center">Clientes</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="CadastroCliente">Novo Cliente</a>
+</p>
+
+
+<div class="container mt-5">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="itemTabs" role="tablist">
+        @for (int i = 1; i <= qtdePaginas; i++)
+        {
+            <li class="nav-item" role="presentation">
+                <a class="nav-link @(i == paginaAtual ? "active" : "")" id="tab-@i"
+                   data-bs-toggle="tab" href="#page-@i" role="tab" aria-controls="page-@i"
+                   aria-selected="@(i == qtdePaginas ? "true" : "false")">
+                    @i
+                </a>
+            </li>
+        }
+    </ul>
+    <!-- Tab content -->
+    <div class="tab-content">
+        @for (int i = 1; i <= qtdePaginas; i++)
+        {
+            <div class="tab-pane fade @(i == paginaAtual ? "show active" : "")"
+                 id="page-@i" role="tabpanel" aria-labelledby="tab-@i">
+                <table class="table table-bordered table-striped table-hover rounded">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Id)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Usuario)
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Skip((i - 1) * qtdeTClientes).Take(qtdeTClientes))
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Usuario)
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary" style="padding:0.2rem;" asp-action="CadastroCliente" asp-route-id="@item.Id">Alterar</a> |
+                                    <a class="btn btn-primary" style="padding:0.2rem;" asp-action="DetalhesClientes" asp-route-id="@item.Id">Detalhes</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+
+
+</div>

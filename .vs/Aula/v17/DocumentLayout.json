@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\cliente\\buscarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\cliente\\buscarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\produtos\\buscarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\produtos\\buscarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\cliente\\alteracliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\cliente\\alteracliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\produtos\\detalhesprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\produtos\\detalhesprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\cliente\\detalhesclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\cliente\\detalhesclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\cliente\\cadastrocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\cliente\\cadastrocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\views\\shared\\_nossolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\views\\shared\\_nossolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|c:\\users\\rauan.spolli\\source\\repos\\aula\\aula\\aula2407\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{22F914CC-6B6B-4979-8B00-245ECA7BC307}|Aula2407\\Aula2407.csproj|solutionrelative:aula2407\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Aula2407\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Aula2407\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:18:34.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuscarCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\BuscarCliente.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Cliente\\BuscarCliente.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\BuscarCliente.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Cliente\\BuscarCliente.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAALQAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T19:36:05.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Aula2407\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Models\\Produto.cs",
+              "RelativeToolTip": "Aula2407\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:10:58.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetalhesClientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\DetalhesClientes.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Cliente\\DetalhesClientes.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\DetalhesClientes.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Cliente\\DetalhesClientes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T19:08:58.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalhesProdutos.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Produtos\\DetalhesProdutos.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Produtos\\DetalhesProdutos.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Produtos\\DetalhesProdutos.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Produtos\\DetalhesProdutos.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T19:08:50.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Aula2407\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Aula2407\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-21T17:37:41.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlteraCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\AlteraCliente.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Cliente\\AlteraCliente.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\AlteraCliente.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Cliente\\AlteraCliente.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAB0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T18:52:15.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscarProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Produtos\\BuscarProduto.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Produtos\\BuscarProduto.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Produtos\\BuscarProduto.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Produtos\\BuscarProduto.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T19:18:59.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastroCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\CadastroCliente.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Cliente\\CadastroCliente.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Cliente\\CadastroCliente.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Cliente\\CadastroCliente.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T17:19:59.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Aula2407\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Aula2407\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:13:10.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_NossoLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Shared\\_NossoLayout.cshtml",
+              "RelativeDocumentMoniker": "Aula2407\\Views\\Shared\\_NossoLayout.cshtml",
+              "ToolTip": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Views\\Shared\\_NossoLayout.cshtml",
+              "RelativeToolTip": "Aula2407\\Views\\Shared\\_NossoLayout.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAB4AAACrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T19:05:22.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

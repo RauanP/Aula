@@ -1,0 +1,42 @@
+﻿@model Aula2407.Models.Produto
+
+@{
+    ViewData["Title"] = "DetalhesProdutos";
+    Layout = "~/Views/Shared/_NossoLayout.cshtml";
+}
+
+<h1>Detalhes Produtos</h1>
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantidade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Quantidade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+    </dl>
+</div>
+<div>
+    @*<a class="btn btn-primary" asp-action="AlteraCliente" asp-route-id="@Model?.Id">Editar</a> *@
+    <a class="btn btn-primary" asp-action="BuscarProduto">Inicio</a>
+</div>

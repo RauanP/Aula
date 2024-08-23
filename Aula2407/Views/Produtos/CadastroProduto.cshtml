@@ -1,0 +1,51 @@
+﻿@model Aula2407.Models.Produto
+
+
+@{
+    ViewData["Title"] = "Cadastro Produto";
+}
+
+
+
+@* Código formulário cadastro de produto *@
+
+
+
+<div class="container">
+
+    @* Titulo *@
+    <div class="row">
+        <div class="col text-center">
+            <h1>Cadastro Produto</h1>
+        </div>
+    </div>
+
+    @* Código para linha de insert para o cadastro de produtos *@
+    <form method="post">
+        <div class="row">
+            <div class="col">
+                <label asp-for="Nome" class="col-sm-2 col-form-label fw-bold"></label>
+                <input asp-for="Nome" class="form-control" id="Nome" type="text" />
+            </div>
+
+            <div class="col-lg-3">
+                <label asp-for="Marca" class="col-form-label fw-bold"></label>
+                <input asp-for="Marca" class="form-control" id="Marca" type="text">
+            </div>
+            <div class="col-lg-2">
+                <label asp-for="Quantidade" class="col-form-label fw-bold"></label>
+                <input asp-for="Quantidade" class="form-control" id="Quantidade" type="int">
+            </div>
+            <div class="col-lg-2">
+                <label asp-for="Valor" class="col-form-label fw-bold text-nowrap"></label>
+                <input asp-for="Valor" class="form-control" id="Valor" type="text">
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-md-end">
+            <div class="col-3 align-content-end ">
+                <input type="submit" class="btn btn-outline-info btn-lg" name="name" value="Cadastrar" />
+            </div>
+        </div>
+    </form>
+
+</div>
