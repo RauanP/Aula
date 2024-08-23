@@ -18,17 +18,41 @@ namespace Aula2407.Controllers
         {
             return View(await _context.Produtos.FindAsync(id));
         }
-        
-        //BUSCAR PRODUTO
-        public async Task<IActionResult> BuscarProduto()
+
+        public async Task<IActionResult> AlteraProduto(int id)
         {
-            return View(await _context.Produtos.ToListAsync());
+            return View(await _context.Produtos.FindAsync(id));
+        }
+
+        //BUSCAR PRODUTO
+        public async Task<IActionResult> BuscarProduto(int pagina = 1)
+        {
+            var QtdeTProdutos = 3;
+
+            var itensP = await _context.Produtos.ToListAsync();
+            //var pagedItens = itens.Skip((pagina - 1) * QtdeTClientes).Take(QtdeTClientes).ToList();
+
+
+            // Passando os dados e informações de paginação para a view
+            ViewBag.QtdePaginas = (int)Math.Ceiling((double)itensP.Count() / QtdeTProdutos);
+            ViewBag.PaginaAtual = pagina;
+            ViewBag.QtdeTProdutos = QtdeTProdutos;
+
+            return View(itensP);
+            //return view(Await _context.Clientes.ToListAsync());
         }
 
         //CADASTRO PRODUTO
-        public IActionResult CadastroProduto()
+        public async Task<IActionResult> CadastroProduto(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return View();
+            }
+            else
+            {
+                return View(await _context.Produtos.FindAsync(id));
+            }
         }
 
         [HttpPost]
@@ -37,8 +61,18 @@ namespace Aula2407.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(produto);
-                await _context.SaveChangesAsync();
+                if (produto.Id != 0)
+                {
+                    _context.Update(produto);
+                    await _context.SaveChangesAsync();
+                    TempData["msg"] = 2;
+                }
+                else
+                {
+                    _context.Add(produto);
+                    await _context.SaveChangesAsync();
+                    TempData["msg"] = "As informações foram salvas com sucesso!";
+                }
                 return RedirectToAction("BuscarProduto", "Produtos");
             }
             return View(produto);

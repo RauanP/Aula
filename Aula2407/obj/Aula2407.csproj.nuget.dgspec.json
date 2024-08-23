@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Aula2407.csproj": {}
+    "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\Aula2407.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Aula2407.csproj": {
+    "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\Aula2407.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Aula2407.csproj",
+        "projectUniqueName": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\Aula2407.csproj",
         "projectName": "Aula2407",
-        "projectPath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Aula2407.csproj",
+        "projectPath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\Aula2407.csproj",
         "packagesPath": "C:\\Users\\rauan.spolli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\obj\\",
+        "outputPath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

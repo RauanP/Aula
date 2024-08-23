@@ -30,7 +30,7 @@ namespace Aula2407.Controllers
         //BUSCAR CLIENTE    
         public async Task<IActionResult> BuscarCliente(int pagina = 1)
         {
-            var QtdeTClientes = 5;
+            var QtdeTClientes = 3;
 
             var itens = await _context.Clientes.ToListAsync();
             //var pagedItens = itens.Skip((pagina - 1) * QtdeTClientes).Take(QtdeTClientes).ToList();

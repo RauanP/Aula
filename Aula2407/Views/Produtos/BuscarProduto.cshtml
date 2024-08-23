@@ -1,8 +1,24 @@
 ﻿@model IEnumerable<Aula2407.Models.Produto>
 
 @{
-    ViewData["Title"] = "Produtos";
-    Layout = "~/Views/Shared/_NossoLayout.cshtml";
+    ViewData["Title"] = "..::Buscar Produtos::..";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int qtdePaginas = ViewBag.QtdePaginas;
+    int paginaAtual = ViewBag.PaginaAtual;
+    int qtdeTProdutos = ViewBag.QtdeTProdutos;
+}
+
+@if (TempData["msg"] as string == "2")
+{
+    <div class="alert alert-success">
+        <span> Dados alterados com sucesso!</span>
+    </div>
+}
+else if (TempData["msg"] as string == "1")
+{
+    <div class="alert alert-success">
+        <span> Dados cadastrados com sucesso!</span>
+    </div>
 }
 
 <h1 class="display-4 align-content-center">Produtos</h1>
@@ -10,45 +26,71 @@
 <p>
     <a class="btn btn-primary" asp-action="CadastroProduto">Novo Produto</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Marca)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Valor)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Marca)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Valor)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a class="btn btn-primary" asp-action="DetalhesProdutos" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+
+<div class="container mt-5">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="itemTabs" role="tablist">
+        @for (int i = 1; i <= qtdePaginas; i++)
+        {
+            <li class="nav-item" role="presentation">
+                <a class="nav-link @(i == paginaAtual ? "active" : "")" id="tab-@i"
+                   data-bs-toggle="tab" href="#page-@i" role="tab" aria-controls="page-@i"
+                   aria-selected="@(i == qtdePaginas ? "true" : "false")">
+                    @i
+                </a>
+            </li>
+        }
+    </ul>
+    <!-- Tab content -->
+    <div class="tab-content">
+        @for (int i = 1; i <= qtdePaginas; i++)
+        {
+            <div class="tab-pane fade @(i == paginaAtual ? "show active" : "")"
+                 id="page-@i" role="tabpanel" aria-labelledby="tab-@i">
+                <table class="table table-bordered table-striped table-hover rounded">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Id)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Valor)
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                       
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Skip((i - 1) * qtdeTProdutos).Take(qtdeTProdutos))
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Valor)
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary" style="padding:0.2rem;" asp-action="CadastroProduto" asp-route-id="@item.Id">Alterar</a> |
+                                    <a class="btn btn-primary" style="padding:0.2rem;" asp-action="DetalhesProdutos" asp-route-id="@item.Id">Detalhes</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+
+
+</div>

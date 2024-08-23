@@ -28,7 +28,6 @@ C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.DiaS
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\rauan.spolli\source\repos\Aula\Aula2407\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll

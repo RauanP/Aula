@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tcIjzEqdmUEFWU7BYfBZFW1TcyFf5hbB6K85D5G3+tEuwcRpNM4/pX5MsgLchvnCt3LODyqs525Z/XdgL6GErQ==",
+  "dgSpecHash": "3thWICdig8IDu7FSdfoZfcrp6jIoIsekOL8D6fmDBNJUl8Qi+WfIiYxt2y76Jhs39Y7+sahQCF0lNNen/3KMow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula\\Aula2407\\Aula2407.csproj",
+  "projectFilePath": "C:\\Users\\rauan.spolli\\source\\repos\\Aula\\Aula2407\\Aula2407.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rauan.spolli\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rauan.spolli\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

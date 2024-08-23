@@ -17,75 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aula2407
 build_property.RootNamespace = Aula2407
-build_property.ProjectDir = C:\Users\rauan.spolli\source\repos\Aula\Aula\Aula2407\
+build_property.ProjectDir = C:\Users\rauan.spolli\source\repos\Aula\Aula2407\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rauan.spolli\source\repos\Aula\Aula\Aula2407
+build_property.MSBuildProjectDirectory = C:\Users\rauan.spolli\source\repos\Aula\Aula2407
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Cliente/AlteraCliente.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Cliente/AlteraCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBbHRlcmFDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Cliente/BuscarCliente.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Cliente/BuscarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxCdXNjYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Cliente/CadastroCliente.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Cliente/CadastroCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3Ryb0NsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Cliente/DetalhesClientes.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Cliente/DetalhesClientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhbGhlc0NsaWVudGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Home/Index.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Home/Privacy.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/NossoApp/Index.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/NossoApp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9zc29BcHBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Produtos/BuscarProduto.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Produtos/AlteraProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQWx0ZXJhUHJvZHV0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Produtos/BuscarProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQnVzY2FyUHJvZHV0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Produtos/CadastroProduto.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Produtos/CadastroProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cm9Qcm9kdXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Produtos/DetalhesProdutos.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Produtos/DetalhesProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWxoZXNQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Shared/Error.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Shared/_NossoLayout.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Shared/_NossoLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3Nzb0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/_ViewImports.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/_ViewStart.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rauan.spolli/source/repos/Aula/Aula/Aula2407/Views/Shared/_Layout.cshtml]
+[C:/Users/rauan.spolli/source/repos/Aula/Aula2407/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rg2r5rno9v
