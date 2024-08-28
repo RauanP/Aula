@@ -1,0 +1,96 @@
+﻿@model Aula2407.Models.Login
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>@ViewData["Title"] - Nosso Corp.</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="~/assets/favicon.ico" />
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+<!-- Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<!-- links asp -->
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/PrimeiroAspNet.styles.css" asp-append-version="true" />
+<style>
+        /* Estilos personalizados para centralizar o formulário */
+        html, body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa; /* Cor de fundo clara */
+            margin: 0;
+        }
+ 
+        .login-container {
+            min-width: 300px;
+            max-width: 500px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff; /* Fundo branco para o formulário */
+        }
+ 
+        .login-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+ 
+        .login-btn {
+            width: 60%;
+        }
+ 
+        .login-btn-container {
+            text-align: right;
+        }
+</style>
+</head>
+<body>
+    @if (!ViewData.ModelState.IsValid)
+    {
+<div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+<p>@error.ErrorMessage</p>
+            }
+</div>
+    }
+<div class="container">
+<div class="login-container">
+<h2 class="login-header">Dados</h2>
+<form method="post" >
+<div class="form-group">
+<label asp-for="Usuario" class="col-sm-2 col-form-label fw-bold"></label>
+<input asp-for="Usuario" class="form-control" id="Usuario" type="text" placeholder="Informe seu usuario" />
+<span asp-validation-for="Usuario" class="text-danger"></span>
+</div>
+ 
+                <div class="form-group ">
+<label asp-for="Senha" class="col-sm-2 col-form-label fw-bold"></label>
+<input asp-for="Senha" class="form-control" id="Senha" type="password" placeholder="Informe sua senha" />
+<span asp-validation-for="Senha" class="text-danger"></span>
+</div>
+<div class="login-btn-container">
+<button type="submit" class="btn btn-primary login-btn mt-2">Entrar</button>
+</div>
+</form>
+</div>
+</div>
+ 
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
